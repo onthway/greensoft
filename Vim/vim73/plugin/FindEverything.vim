@@ -74,8 +74,9 @@ fun! FindEverything()
 
    "let dir = input("Find in dir: ", "", "dir")
    "let dir = s:Handle_String(dir)
+
    "let cmd = cmd .' '. g:fe_es_option . ' ' . dir . ' ' . pattern
-	 let cmd = cmd .' '. g:fe_es_option . ' ' . pattern
+   let cmd = cmd .' '. g:fe_es_option . ' ' . pattern
 
    let l:result=system(cmd)
 
